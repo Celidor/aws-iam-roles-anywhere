@@ -20,3 +20,6 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+
+## test AWS IAM Roles Anywhere
+[Create AWS IAM Roles Anywhere](TRUSTANCHOR.md)
