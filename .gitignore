@@ -1,0 +1,25 @@
+# certificates and keys
+*.pem
+*.key
+*.csr
+*.crt
+*.p12
+*.der
+
+# IDEs
+.idea
+.vscode
+
+# MAC OS
+.DS_Store
+*.DS_Store
+
+# Python
+__pycache__*
+*/__pycache__*
+*.pyc
+.venv/*
+venv/*
+venv
+.pytest_cache*
+*/.pytest_cache*
