@@ -8,6 +8,7 @@ country = "GB"  # Approved 2 letter country code
 state = "England"
 locality = "London"
 organization = "Test Company"
+organization_unit_name = "Cloud Security"  # only added to client certificate
 ca_common_name = "Test Company Root CA"
 ca_lifetime = 3650  # 10 years
 client_common_name = "Test Client"
@@ -24,4 +25,6 @@ if rebuild_ca:
 
 # Create client certificate
 client_certificate_information = cert_info(country, state, locality, organization, client_common_name)
+client_certificate_information["organization_unit_name"] = organization_unit_name
+
 create_client_cert(client_certificate_information, ca_file_path, client_file_path, client_lifetime)

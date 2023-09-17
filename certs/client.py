@@ -15,6 +15,7 @@ def cert_signing_request(private_key, certificate_information):
     locality = certificate_information["locality"]
     organization = certificate_information["organization"]
     common_name = certificate_information["common_name"]
+    organization_unit_name = certificate_information["organization_unit_name"]
 
     csr = (
         x509.CertificateSigningRequestBuilder()
@@ -25,6 +26,7 @@ def cert_signing_request(private_key, certificate_information):
                     x509.NameAttribute(NameOID.STATE_OR_PROVINCE_NAME, state),
                     x509.NameAttribute(NameOID.LOCALITY_NAME, locality),
                     x509.NameAttribute(NameOID.ORGANIZATION_NAME, organization),
+                    x509.NameAttribute(NameOID.ORGANIZATIONAL_UNIT_NAME, organization_unit_name),
                     x509.NameAttribute(NameOID.COMMON_NAME, common_name),
                 ]
             ),

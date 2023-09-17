@@ -1,6 +1,7 @@
-# Configure AWS IAM Roles Anywhere
+# Create Trust Anchor
 * Log in to your AWS account
-* Select IAM, Roles, Roles Anywhere
+* Search for IAM Roles Anywhere
+* This will take you to IAM, Roles, Roles Anywhere
 
 <kbd>
   <img src="images/setup.png" width="500">

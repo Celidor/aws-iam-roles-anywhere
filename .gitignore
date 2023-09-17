@@ -6,6 +6,14 @@
 *.p12
 *.der
 
+# AWS signing helper
+aws_signing_helper
+
+# Test files including ARNs
+my-test.sh
+get-creds.sh
+confidential.png
+
 # IDEs
 .idea
 .vscode
