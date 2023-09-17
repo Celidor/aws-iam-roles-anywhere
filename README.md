@@ -22,10 +22,10 @@ python main.py
 ```
 
 ## test AWS IAM Roles Anywhere
-[Create Trust Anchor](docs/TRUST_ANCHOR.md)
-[Create IAM Role](docs/IAM_ROLE.md)
-[Create Roles Anywhere Profile](docs/PROFILE.md)
-[Test AWS IAM Roles Anywhere](docs/TEST.md)
+[Create Trust Anchor](docs/TRUST_ANCHOR.md)  
+[Create IAM Role](docs/IAM_ROLE.md)  
+[Create Roles Anywhere Profile](docs/PROFILE.md)  
+[Test AWS IAM Roles Anywhere](docs/TEST.md)  
 
 ## acknowledgement
 [Medium article by Roy Ben](https://medium.com/cyberark-engineering/calling-aws-services-from-your-on-premises-servers-using-iam-roles-anywhere-3e335ed648be)
