@@ -24,6 +24,7 @@
 <kbd>
   <img src="images/keychain-macos-client-cert.png" width="500">
 </kbd>
+
 * copy the certificate serial number
 * paste into the `x509Serial` value field
 * remove spaces
