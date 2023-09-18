@@ -29,8 +29,8 @@ pip install -r requirements.txt
 ```
 
 ## create test certs
-* creates self-signed Certificate Authority
-* creates client certificate
+* create self-signed Certificate Authority
+* create client certificate
 * includes required certificate extensions for AWS IAM Roles Anywhere
 ```
 python main.py
