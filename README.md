@@ -1,6 +1,13 @@
 # aws-iam-roles-anywhere
 * Create test CA and client certificate locally using Python
 * No need to use AWS Private CA
+* Configure AWS IAM Roles Anywhere
+
+<kbd>
+  <img src="docs/images/roles-anywhere-config.png" width="500">
+</kbd>
+
+
 * Configure with MacOS Keychain and test
 
 <kbd>
