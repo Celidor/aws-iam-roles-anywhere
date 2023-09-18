@@ -5,6 +5,7 @@
 *.crt
 *.p12
 *.der
+*.certSigningRequest
 
 # AWS signing helper
 aws_signing_helper
@@ -12,6 +13,8 @@ aws_signing_helper
 # Test files including ARNs
 my-test.sh
 get-creds.sh
+macos-test.sh
+get-macos-creds.sh
 confidential.png
 
 # IDEs

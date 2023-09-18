@@ -1,0 +1,5 @@
+export $(./aws_signing_helper credential-process \
+    --cert-selector file://selector.json \
+    --trust-anchor-arn "arn:aws:rolesanywhere:eu-west-2:012345678901:trust-anchor/0b855d05-6a40-4eea-af88-b9e9e0d60156" \
+    --profile-arn "arn:aws:rolesanywhere:eu-west-2:012345678901:profile/b62e420d-2af7-4f3b-afd1-e631e2242744" \
+    --role-arn "arn:aws:iam::012345678901:role/roles-anywhere-s3-full-access" | python get_creds.py)

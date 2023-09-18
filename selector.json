@@ -1,0 +1,14 @@
+[
+    {
+      "Key": "x509Subject",
+      "Value": "CN=MacOS Client,OU=Cloud Security,O=Test Company,L=London,ST=England,C=GB"
+    },
+    {
+      "Key": "x509Issuer",
+      "Value": "CN=Test Company Root CA,O=Test Company,L=London,ST=England,C=GB"
+    },
+    {
+      "Key": "x509Serial",
+      "Value": "7C2218B31614DE69CFB8BA2F54781C6B88C7C48A"
+    }
+  ]
