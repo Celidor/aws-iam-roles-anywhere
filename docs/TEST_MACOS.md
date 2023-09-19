@@ -88,3 +88,14 @@ An error occurred (AccessDenied) when calling the ListBuckets operation: Access 
 aws s3 cp s3://celidor-confidential/confidential.png confidential.png
 download: s3://celidor-confidential/confidential.png to ./confidential.png
 ```
+
+## View connection details
+* At IAM, Roles, Roles Anywhere, navigate to your region
+* Select Subject Activity
+
+<kbd>
+  <img src="images/subject-activity.png" width="300">
+</kbd>
+
+* A record of connections using the original and MacOS certificates can be seen
+* Click on one of the links to view the certificate used to authenticate
