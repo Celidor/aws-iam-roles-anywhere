@@ -14,7 +14,7 @@
 </kbd>
 
 ## Medium article
-[AWS IAM Roles Anywhere with MacOS Keychain](https://medium.com/@paulschwarzenberger/aws-iam-roles-anywhere-with-macos-keychain-17764b5fb848#eec1)
+[AWS IAM Roles Anywhere with MacOS Keychain](https://medium.com/@paulschwarzenberger/aws-iam-roles-anywhere-with-macos-keychain-17764b5fb848)
 
 ## Important warning
 The code in this repository is for test purposes only and is not suitable for a production certificate authority. 
