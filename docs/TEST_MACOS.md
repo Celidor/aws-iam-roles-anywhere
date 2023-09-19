@@ -94,7 +94,7 @@ download: s3://celidor-confidential/confidential.png to ./confidential.png
 * Select Subject Activity
 
 <kbd>
-  <img src="images/subject-activity.png" width="300">
+  <img src="images/subject-activity.png" width="500">
 </kbd>
 
 * A record of connections using the original and MacOS certificates can be seen
