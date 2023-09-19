@@ -2,7 +2,7 @@
 * Select IAM, Roles, Create role
 * Select Custom Trust Policy
 * Copy and Paste the trust policy below
-```
+```json
 {
     "Version": "2012-10-17",
     "Statement": [

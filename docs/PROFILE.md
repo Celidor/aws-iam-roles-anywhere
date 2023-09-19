@@ -6,7 +6,7 @@
 * Select the role you created earlier
 * Copy and Paste the trust policy below
 * Replace `<BUCKET_ARN>` with one of your S3 buckets
-```
+```json
 {
   "Version":"2012-10-17",
   "Statement":[

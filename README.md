@@ -7,28 +7,30 @@
   <img src="docs/images/roles-anywhere-config.png" width="500">
 </kbd>
 
-
 * Configure with MacOS Keychain and test
 
 <kbd>
   <img src="docs/images/keychain-cert-with-key.png" width="500">
 </kbd>
 
-## important warning
+## Medium article
+[AWS IAM Roles Anywhere with MacOS Keychain](https://medium.com/@paulschwarzenberger/aws-iam-roles-anywhere-with-macos-keychain-17764b5fb848#eec1)
+
+## Important warning
 The code in this repository is for test purposes only and is not suitable for a production certificate authority. 
 
 A production certificate authority should have its keys generated in a Hardware Security Module (HSM) and it should not be possible to export the private key from the HSM.
 
 With this code, private keys are held locally on disk, and loss of these could potentially lead to takeover of your AWS Accounts.
 
-## set up Python virtual environment
+## Set up Python virtual environment
 ```
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## create test certs
+## Create test certs
 * create self-signed Certificate Authority
 * create client certificate
 * includes required certificate extensions for AWS IAM Roles Anywhere
@@ -36,7 +38,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## test AWS IAM Roles Anywhere
+## Test AWS IAM Roles Anywhere
 [Create Trust Anchor](docs/TRUST_ANCHOR.md)  
 [Create IAM Role](docs/IAM_ROLE.md)  
 [Create Roles Anywhere Profile](docs/PROFILE.md)  
@@ -44,5 +46,5 @@ python main.py
 [Set up MacOS Keychain](docs/MACOS_KEYCHAIN.md)  
 [Test MacOS Keychain](docs/TEST_MACOS.md)  
 
-## acknowledgement
+## Acknowledgement
 [Medium article by Roy Ben](https://medium.com/cyberark-engineering/calling-aws-services-from-your-on-premises-servers-using-iam-roles-anywhere-3e335ed648be)
